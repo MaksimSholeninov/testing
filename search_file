@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -e "search_file" ] ; then 
+cat "search_file"
+else
+echo "файла не существует!"
+fi
